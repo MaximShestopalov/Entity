@@ -22,6 +22,7 @@ namespace Entity
                 db.SaveChanges();
                 Console.WriteLine("Объекты добавлены в базу данных");
 
+
                 var currencies = db.Currencies;
                 Console.WriteLine("Список объектов:");
                 foreach (Currency i in currencies)
