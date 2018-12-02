@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entity
 {
+    // Программа осуществляет создание базы данных Currencies
+    // Она хранит данные о курсах валют 
+
     class Program
     {
         static void Main(string[] args)
